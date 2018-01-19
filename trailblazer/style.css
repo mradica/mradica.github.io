@@ -1,0 +1,72 @@
+input[type=text] {
+    width: 50%;
+    border: 2px solid rgb(127, 167, 179);
+    border-radius: 4px;
+}
+
+h1 {
+    color: rgb(231, 102, 99);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+  .minusBtn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;    
+    background: #f26c6c;
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+    border: solid #f26c6c 2px;
+    text-decoration: none;
+    width: 23px;
+  }
+  
+  .minusBtn:hover {
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .plusBtn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;    
+    background: #66c689;
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+    border: solid #66c689 2px;
+    text-decoration: none;
+    width: 23px;
+  }
+  
+  .plusBtn:hover {
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .text{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+  }
